@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26621.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portray.Hosts.Web", "Portray.Hosts.Web\Portray.Hosts.Web.csproj", "{A35863D2-8B5F-4DE6-AB7A-564F8AA046EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portray.Hosts.Web", "Portray.Hosts.Web\Portray.Hosts.Web.csproj", "{A35863D2-8B5F-4DE6-AB7A-564F8AA046EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portray.Models", "Portray.Models\Portray.Models.csproj", "{4369DBCA-BE30-4994-921C-DA8FF27FC5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portray.Models.Tests.Unit", "Portray.Models.Tests.Unit\Portray.Models.Tests.Unit.csproj", "{0231FF01-4043-465A-98A0-83CE6701E2E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A35863D2-8B5F-4DE6-AB7A-564F8AA046EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35863D2-8B5F-4DE6-AB7A-564F8AA046EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35863D2-8B5F-4DE6-AB7A-564F8AA046EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4369DBCA-BE30-4994-921C-DA8FF27FC5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4369DBCA-BE30-4994-921C-DA8FF27FC5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4369DBCA-BE30-4994-921C-DA8FF27FC5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4369DBCA-BE30-4994-921C-DA8FF27FC5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0231FF01-4043-465A-98A0-83CE6701E2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0231FF01-4043-465A-98A0-83CE6701E2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0231FF01-4043-465A-98A0-83CE6701E2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0231FF01-4043-465A-98A0-83CE6701E2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
