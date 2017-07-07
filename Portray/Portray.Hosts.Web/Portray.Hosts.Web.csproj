@@ -21,6 +21,24 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="ClientApp\app\components\assets\assets.component.ts" />
+    <None Remove="ClientApp\app\components\kyc\kyc.component.ts" />
+    <None Remove="ClientApp\app\shared\submitted.component.ts" />
+    <None Remove="ClientApp\app\shared\user.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\components\assets\assets.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\kyc\kyc.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\submitted.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\shared\user.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\dist\" />
+  </ItemGroup>
+
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
