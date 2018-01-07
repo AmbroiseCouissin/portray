@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Portray.Models
+﻿namespace Portray.Models
 {
     public class Currency : Instrument
     {
